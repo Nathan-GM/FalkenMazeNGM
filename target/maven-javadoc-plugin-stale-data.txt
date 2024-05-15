@@ -1,0 +1,63 @@
+@options
+@packages
+-classpath
+'C:/Users/Natha/.m2/repository/org/openjfx/javafx-graphics/16/javafx-graphics-16.jar;C:/Users/Natha/.m2/repository/org/openjfx/javafx-graphics/16/javafx-graphics-16-win.jar;C:/Users/Natha/.m2/repository/org/openjfx/javafx-base/16/javafx-base-16.jar;C:/Users/Natha/.m2/repository/org/openjfx/javafx-base/16/javafx-base-16-win.jar;C:/Users/Natha/.m2/repository/com/jfoenix/jfoenix/9.0.10/jfoenix-9.0.10.jar;C:/Users/Natha/.m2/repository/org/openjfx/javafx-controls/17.0.0.1/javafx-controls-17.0.0.1.jar;C:/Users/Natha/.m2/repository/org/openjfx/javafx-controls/17.0.0.1/javafx-controls-17.0.0.1-win.jar;C:/Users/Natha/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/3.0.1/jakarta.xml.bind-api-3.0.1.jar;C:/Users/Natha/.m2/repository/com/sun/activation/jakarta.activation/2.0.1/jakarta.activation-2.0.1.jar;C:/Users/Natha/.m2/repository/com/sun/xml/bind/jaxb-impl/3.0.2/jaxb-impl-3.0.2.jar;C:/Users/Natha/.m2/repository/com/sun/xml/bind/jaxb-core/3.0.2/jaxb-core-3.0.2.jar;C:/Users/Natha/.m2/repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'C:/Users/Natha/Desktop/falkensmaze/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Natha/Desktop/falkensmaze/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'FalkensMaze 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'C:/Users/Natha/Desktop/falkensmaze/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'FalkensMaze 1.0-SNAPSHOT API'
+pedro.ieslaencanta.com.falkensmaze.components
+pedro.ieslaencanta.com.falkensmaze.model
+pedro.ieslaencanta.com.falkensmaze
+C:\Users\Natha\.m2\repository\org\openjfx\javafx-graphics\16\javafx-graphics-16.jar = 1715169120016
+C:\Users\Natha\.m2\repository\org\openjfx\javafx-graphics\16\javafx-graphics-16-win.jar = 1715169120151
+C:\Users\Natha\.m2\repository\org\openjfx\javafx-base\16\javafx-base-16.jar = 1715169119991
+C:\Users\Natha\.m2\repository\org\openjfx\javafx-base\16\javafx-base-16-win.jar = 1715169120064
+C:\Users\Natha\.m2\repository\com\jfoenix\jfoenix\9.0.10\jfoenix-9.0.10.jar = 1715169120105
+C:\Users\Natha\.m2\repository\org\openjfx\javafx-controls\17.0.0.1\javafx-controls-17.0.0.1.jar = 1715169120125
+C:\Users\Natha\.m2\repository\org\openjfx\javafx-controls\17.0.0.1\javafx-controls-17.0.0.1-win.jar = 1715169120163
+C:\Users\Natha\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\3.0.1\jakarta.xml.bind-api-3.0.1.jar = 1715169120113
+C:\Users\Natha\.m2\repository\com\sun\activation\jakarta.activation\2.0.1\jakarta.activation-2.0.1.jar = 1715169120144
+C:\Users\Natha\.m2\repository\com\sun\xml\bind\jaxb-impl\3.0.2\jaxb-impl-3.0.2.jar = 1715169120172
+C:\Users\Natha\.m2\repository\com\sun\xml\bind\jaxb-core\3.0.2\jaxb-core-3.0.2.jar = 1715169120161
+C:\Users\Natha\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar = 1715169120203
+C:\Users\Natha\Desktop\falkensmaze\src\main\java = 1715764408436
+C:\Users\Natha\Desktop\falkensmaze\target\site\apidocs\allclasses-index.html = 1715768138233
+C:\Users\Natha\Desktop\falkensmaze\target\site\apidocs\allpackages-index.html = 1715768138235
+C:\Users\Natha\Desktop\falkensmaze\target\site\apidocs\element-list = 1715768138136
+C:\Users\Natha\Desktop\falkensmaze\target\site\apidocs\help-doc.html = 1715768138257
+C:\Users\Natha\Desktop\falkensmaze\target\site\apidocs\index-all.html = 1715768138252
+C:\Users\Natha\Desktop\falkensmaze\target\site\apidocs\index.html = 1715768138220
+C:\Users\Natha\Desktop\falkensmaze\target\site\apidocs\javadoc.bat = 1715768100466
+C:\Users\Natha\Desktop\falkensmaze\target\site\apidocs\jquery-ui.overrides.css = 1715768138268
+C:\Users\Natha\Desktop\falkensmaze\target\site\apidocs\member-search-index.js = 1715768138238
+C:\Users\Natha\Desktop\falkensmaze\target\site\apidocs\module-search-index.js = 1715768138236
+C:\Users\Natha\Desktop\falkensmaze\target\site\apidocs\overview-summary.html = 1715768138253
+C:\Users\Natha\Desktop\falkensmaze\target\site\apidocs\overview-tree.html = 1715768138216
+C:\Users\Natha\Desktop\falkensmaze\target\site\apidocs\package-search-index.js = 1715768138237
+C:\Users\Natha\Desktop\falkensmaze\target\site\apidocs\script.js = 1715768138260
+C:\Users\Natha\Desktop\falkensmaze\target\site\apidocs\search.js = 1715768138261
+C:\Users\Natha\Desktop\falkensmaze\target\site\apidocs\serialized-form.html = 1715768138170
+C:\Users\Natha\Desktop\falkensmaze\target\site\apidocs\stylesheet.css = 1715768138258
+C:\Users\Natha\Desktop\falkensmaze\target\site\apidocs\tag-search-index.js = 1715768138239
+C:\Users\Natha\Desktop\falkensmaze\target\site\apidocs\type-search-index.js = 1715768138237
