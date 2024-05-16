@@ -41,7 +41,13 @@ Si ahora quisieramos guardarlo en un fichero deberiamos primero asignarle un son
 
 ![Imagen que muestra como se agrega sonido al maze](https://github.com/Nathan-GM/FalkenMazeNGM/assets/158311460/fa22b5fa-d3d6-4672-86c0-acc7b33b9dc5)
 
-Al darle a Abrir el sonido ya estará asignado a nuestro laberinto y por tanto podremos guardarlo. Para ello iremos a Archivo -> Guardar. Ahí seleccionaremos una ruta donde almacenar nuestro fichero y una extensión que debe ser de uno de los 3 formatos permitidos: XML, JSON y BIN. En esta ocasión lo guardaré como XML y en el escritorio.
+Al darle a Abrir el sonido ya estará asignado a nuestro laberinto y por tanto podremos guardarlo. Para ello iremos a Archivo -> Guardar. Ahí seleccionaremos una ruta donde almacenar nuestro fichero y una extensión que debe ser de uno de los 3 formatos permitidos: XML, JSON y BIN. La ventana se verá como la que vemos a continuación
+
+![Ruta Guardado](https://github.com/Nathan-GM/FalkenMazeNGM/assets/158311460/26a707d8-1808-45db-b78e-5dca6d7154ab)
+
+
+
+En esta ocasión lo guardaré como XML y en el escritorio.
 
 ![Fichero Maze.xml](https://github.com/Nathan-GM/FalkenMazeNGM/assets/158311460/404a68dd-9ece-4df8-8a40-f726b4030c57)
 
