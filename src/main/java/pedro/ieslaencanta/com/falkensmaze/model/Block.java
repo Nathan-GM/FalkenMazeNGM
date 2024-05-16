@@ -39,7 +39,7 @@ public class Block implements  Serializable {
     }
     /**
      * Método que comprobará si el valor del bloque esta vacio.
-     * @return Devuelve (comprobar).
+     * @return Devuelve true si el bloque actual se encuentra vacio.
      */
     public boolean isEmpty(){
         return this.value==null;

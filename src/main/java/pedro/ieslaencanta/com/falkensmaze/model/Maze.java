@@ -32,7 +32,9 @@ import java.nio.file.Files;
 import pedro.ieslaencanta.com.falkensmaze.Size;
 
 /**
- *
+ * Clase encargada de generar un laberinto, en base al Size
+ * Y los bloques que tengamos.
+ * 
  * @author NGM
  * @see Size
  * @see Block
@@ -52,7 +54,8 @@ public class Maze implements Serializable {
     }
 
     /**
-     * Método que inicializará el Maze (explicar más)
+     * Método que inicializará el Maze, donde en cada posición del tablero
+     * estará generando un nuevo bloque.
      */
     public void init() {
         this.setBlocks(new Block[this.getSize().getHeight()][this.getSize().getWidth()]);
@@ -66,6 +69,7 @@ public class Maze implements Serializable {
 
     /**
      * Método que reiniciará el Maze borrando todos los bloques existentes.
+     * De esta manera el Maze se verá como recien generado.
      */
     public void reset() {
         for (int i = 0; i < this.getBlocks().length; i++) {
@@ -167,16 +171,17 @@ public class Maze implements Serializable {
     }
 
     /**
-     *
-     * @return
+     * Método que devuelve la matriz de bloques actual
+     * @return Devuelve la matriz de bloques que tiene el maze.
      */
     public Block[][] getBlocks() {
         return blocks;
     }
 
     /**
-     *
-     * @param blocks
+     * Método que actualiza la matriz de bloques actual del maze
+     * por una nueva otorgada por parámetro.
+     * @param blocks Matriz de bloques nueva.
      */
     public void setBlocks(Block[][] blocks) {
         this.blocks = blocks;
@@ -259,6 +264,13 @@ public class Maze implements Serializable {
         }
     }
 
+    /**
+     * Método utilizado para cargar ficheros JSON.
+     * @param file Fichero con extensión JSON que contiene un Maze.
+     * @return Maze cargado desde el fichero JSON otorgado.
+     * @throws FileNotFoundException
+     * @throws IOException 
+     */
     private static Maze loadJSON(File file) throws FileNotFoundException, IOException {
         Gson gson = new Gson();
         Reader reader;
@@ -268,6 +280,13 @@ public class Maze implements Serializable {
         return m;
     }
 
+    /**
+     * Método utilizado para cargar ficheros XML que contengan MAZE.
+     * @param file fichero XML cuyo contenido es el del Maze.
+     * @return Maze cargado desde el fichero XML.
+     * @throws JAXBException
+     * @throws IOException 
+     */
     private static Maze loadXML(File file) throws JAXBException, IOException {
 
         JAXBContext context = JAXBContext.newInstance(Maze.class);
@@ -278,6 +297,14 @@ public class Maze implements Serializable {
 
     }
 
+    /**
+     * Método utilizado para cargar un Maze desde un fichero Bin.
+     * @param file Fichero de extensión Bin que contiene los datos de un maze.
+     * @return Maze cargado desde el fichero Bin.
+     * @throws FileNotFoundException
+     * @throws IOException
+     * @throws ClassNotFoundException 
+     */
     public static Maze loadBin(File file) throws FileNotFoundException, IOException, ClassNotFoundException {
         FileInputStream os = new FileInputStream(file);
 
@@ -288,6 +315,13 @@ public class Maze implements Serializable {
         return m;
     }
 
+    /**
+     * Método utilizado para guardar un maze en un fichero formato JSON.
+     * @param maze Maze actual que deseamos guardar.
+     * @param file Dirección, nombre y extensión de dicho fichero que contendrá el Maze.
+     * @throws FileNotFoundException
+     * @throws UnsupportedEncodingException 
+     */
     private static void saveJSON(Maze maze, File file) throws FileNotFoundException, UnsupportedEncodingException {
         Gson gson = new Gson();
         String json = gson.toJson(maze);
@@ -296,6 +330,13 @@ public class Maze implements Serializable {
         pw.close();
     }
 
+    /**
+     * Método utilizado para guardar un maze en un fichero con formato XML.
+     * @param maze Maze actual que deseamos guardar.
+     * @param file Dirección, nombre y extensión de dicho fichero que contendrá el Maze.
+     * @throws JAXBException
+     * @throws IOException 
+     */
     private static void saveXML(Maze maze, File file) throws JAXBException, IOException {
         JAXBContext context = JAXBContext.newInstance(maze.getClass());
         // create an instance of `Marshaller`
@@ -309,6 +350,13 @@ public class Maze implements Serializable {
 
     }
 
+    /**
+     * Método utilizado para guardar un maze en un fichero con formato BIN
+     * @param maze Maze actual que deseamos guardar.
+     * @param file Dirección, nombre y extensión de dicho fichero que contendrá el Maze.
+     * @throws FileNotFoundException
+     * @throws IOException 
+     */
     public static void saveBin(Maze maze, File file) throws FileNotFoundException, IOException {
         OutputStream os = new FileOutputStream(file);
         ObjectOutputStream oos = new ObjectOutputStream(os);

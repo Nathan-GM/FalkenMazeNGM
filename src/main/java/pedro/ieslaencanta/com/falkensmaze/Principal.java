@@ -41,6 +41,12 @@ import pedro.ieslaencanta.com.falkensmaze.model.Maze;
  * relacionado a la misma.
  * 
  * @author NGM
+ * @see Block
+ * @see BlocksPanel
+ * @see DialogSize
+ * @see DialogTime
+ * @see MazeCanvas
+ * @see Maze
  */
 public class Principal extends Application {
 
