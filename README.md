@@ -1,19 +1,20 @@
-NATHAN GONZALEZ MERCADO
+# **FalkenMaze - Nathan Gonzalez Mercado - 1ºDAM**
 
+Esta aplicación nos permite generar nuestros propios laberintos con distintos bloques. Al iniciar el programa, nos encotnraremos con la siguiente vista:
 
-FOTOS YA ORGANIZARÉ
+![Vista Principal del Programa](https://github.com/Nathan-GM/FalkenMazeNGM/assets/158311460/7df8e96b-245f-42e4-bdc7-26b3fe0469fb)
 
-![image](https://github.com/Nathan-GM/FalkenMazeNGM/assets/158311460/062326bb-4c70-4a6b-aa02-82e314698b0c)
+Aquí podremos ver que encontramos lo siguiente:
 
-
-![image](https://github.com/Nathan-GM/FalkenMazeNGM/assets/158311460/16fe1391-07bb-445b-b64d-b76c61248e2f)
-
-
-
-![image](https://github.com/Nathan-GM/FalkenMazeNGM/assets/158311460/7c3da19f-41dc-4615-9776-59e7a5b435fc)
-
-
-![image](https://github.com/Nathan-GM/FalkenMazeNGM/assets/158311460/8d16cd4f-61b1-410b-be4f-e49bfab7fdba)
-
-
+1. Menú
+   - Archivo
+     - Nuevo -> Permite crear nuestro laberinto de 0
+     - Guardar -> Permite guardar nuestro laberinto en 3 formatos: XML, JSON y BIN
+     - Abrir -> Nos permite abrir un laberitno desde un fichero con alguna de las 3 extensiones mencionadas.
+     - Salir -> Cierra el programa
+   - Options
+     - Sound -> Nos permite ajustar un sonido para nuestro laberinto. Obligatoriamente debe tener uno.
+     - Time -> Permite ajustar el tiempo que tenemos para resolver el mismo.
+2. Panel con bloques (Lateral Izquierdo) -> Contiene todos los bloques disponibles para generar el laberinto así como un borrador (bloque con icono de basura).
+3. Matriz de nuestro laberinto -> Matriz donde podremos crear nuestro laberinto haciendo uso de los bloques que encontramos en el panel.
 
