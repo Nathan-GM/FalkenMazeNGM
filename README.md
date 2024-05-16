@@ -1,5 +1,6 @@
 # **FalkenMaze - Nathan Gonzalez Mercado - 1ºDAM**
 
+## Introducción
 Esta aplicación nos permite generar nuestros propios laberintos con distintos bloques. Al iniciar el programa, nos encotnraremos con la siguiente vista:
 
 ![Vista Principal del Programa](https://github.com/Nathan-GM/FalkenMazeNGM/assets/158311460/7df8e96b-245f-42e4-bdc7-26b3fe0469fb)
